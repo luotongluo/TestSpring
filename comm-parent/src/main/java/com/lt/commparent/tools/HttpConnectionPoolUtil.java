@@ -25,11 +25,7 @@ import java.io.IOException;
  * @Title: HttpConnectionPoolUtil
  * @Package: com.leyou.util
  * @Description: httpclient pool
- * @author: lizhui
- * @date: 2018/12/13 9:29
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
+ * @author:
  */
 public class HttpConnectionPoolUtil {
 
