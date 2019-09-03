@@ -59,7 +59,6 @@
 //            Route route = exchange.getAttribute(ServerWebExchangeUtils.GATEWAY_ROUTE_ATTR);
 //
 //            return resolver.resolve(exchange).flatMap(key ->
-//                    // TODO: if key is empty?
 //                    limiter.isAllowed(route.getId(), key).flatMap(response -> {
 //
 //                        for (Map.Entry<String, String> header : response.getHeaders().entrySet()) {

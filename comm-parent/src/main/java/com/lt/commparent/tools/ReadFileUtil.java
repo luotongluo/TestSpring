@@ -12,7 +12,7 @@ public class ReadFileUtil {
 	/**
 	 * 
 	 * @Title: readFile 从properties文件中读取url的配置信息
-	 * @Description: TODO String
+	 * @Description:
 	 * @author Administrator
 	 */
 	public static String readFile(String proper) {
