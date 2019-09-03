@@ -16,6 +16,9 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <fastjson.version>1.2.59</fastjson.version>
+        <httpclient.version>4.5.8</httpclient.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
     </properties>
 
     <dependencies>
@@ -37,17 +40,17 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.56</version>
+            <version>${fastjson.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.8</version>
+            <version>${httpclient.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
-            <version>3.1</version>
+            <version>${commons-httpclient.version}</version>
         </dependency>
     </dependencies>
 
@@ -60,7 +63,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>3.0.0-M2</version>
                 <configuration>
                     <skipTests>true</skipTests>
                 </configuration>
