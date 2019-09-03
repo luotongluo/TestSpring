@@ -23,6 +23,8 @@
             <aop:after method="printTime" pointcut-ref="addAllMethod"/>
         </aop:aspect>
     </aop:config>-->
+
+
     <aop:config>
         <aop:aspect id="time" ref="timeHandler" order="1">
             <aop:pointcut id="addTime" expression="execution(* com.lt.aoptest.aop.HelloWorld.*(..))"/>
