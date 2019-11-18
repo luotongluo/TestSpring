@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 
  * @ClassName: MessageUtil
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description:
  * @author xueyuan
  * @date 2016年5月17日 上午11:35:16
  *
@@ -180,7 +180,7 @@ public class MessageUtil {
 	/**
 	 * 
 	 * @Title: getMsgMap
-	 * @Description: TODO 根据指定的BODY的对象回去msg的MAP
+	 * @Description:  根据指定的BODY的对象回去msg的MAP
 	 * @param
 	 * @return Map<String,Object> 返回类型
 	 * @throws @author

@@ -1,7 +1,7 @@
 /**   
 * @Title: SignUtil.java 
 * @Package com.leyou.util 
-* @Description: TODO(用一句话描述该文件做什么) 
+* @Description:
 * @author Abin  
 * @date 2018年11月22日 下午8:21:08 
 * @version V1.0   
