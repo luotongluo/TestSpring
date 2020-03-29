@@ -1,3 +1,6 @@
+SpringCloud之Eureka注册中心原理及其搭建
+https://www.cnblogs.com/jing99/p/11576133.html
+
 #服务端开启自我保护模式，前面章节有介绍
 eureka.server.enable-self-preservation=true
 #扫描失效服务的间隔时间（单位毫秒，默认是60*1000）即60秒
