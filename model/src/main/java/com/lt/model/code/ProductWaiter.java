@@ -24,7 +24,7 @@ public class ProductWaiter {
     public static void main(String[] args) {
         Product meal = new Product();
 
-        ProductWaiter productWaiter = new ProductWaiter(meal);
+//        ProductWaiter productWaiter = new ProductWaiter(meal);
 //        Meal construct = productWaiter.construct();
 
 //        System.out.println(construct.getMeal());
