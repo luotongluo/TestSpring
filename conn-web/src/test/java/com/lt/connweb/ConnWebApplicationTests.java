@@ -1,13 +1,13 @@
-package com.lt.eurke;
+package com.lt.connweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class EurkeApplicationTests {
+class ConnWebApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
