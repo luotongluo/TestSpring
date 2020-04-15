@@ -12,10 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value={"", "/", "/index", "/index/"})
+    @RequestMapping(value = {"", "/", "/index", "/index/"})
     public String home(Model model) {
-        System.out.println("1223123");
-        model.addAttribute("test",123);
-    return "home.ftl";
+        return "home";
     }
 }
