@@ -16,4 +16,11 @@ public class HomeController {
     public String home(Model model) {
         return "home";
     }
+
+    @RequestMapping(value = {"btnPage"})
+    public String btnPage(Model model) {
+        return "btn/bt";
+    }
+
+
 }
