@@ -1,14 +1,7 @@
 package com.lt.commparent.http;
 
 /**
- * @Title: ResultCode
- * @Package: com.leyou.enums
- * @Description: 全局错误码
- * @author: lizhui
- * @date: 2018/11/22 9:47 
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p> 
+ *
  */
 public enum ResultCode {
 

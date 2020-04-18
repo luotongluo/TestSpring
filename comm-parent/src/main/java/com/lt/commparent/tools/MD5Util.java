@@ -3,16 +3,6 @@ package com.lt.commparent.tools;
 
 import java.security.MessageDigest;
 
-/**
- * @Title: MD5Util
- * @Package: com.leyou.util
- * @Description: MD5工具类
- * @author: lizhui
- * @date: 2018/11/26 11:13
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class MD5Util {
 
 	private final static String[] hexDigits = { "0", "1", "2", "3", "4", "5",

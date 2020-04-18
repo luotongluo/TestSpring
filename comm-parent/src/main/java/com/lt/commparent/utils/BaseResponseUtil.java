@@ -1,15 +1,5 @@
 package com.lt.commparent.utils;
 
-/**
- * @Title: BaseResponseUtil
- * @Package: com.leyou.apollo.framework
- * @Description: 基础服务返回信息工具类
- * @author: lizhui
- * @date: 2019/2/27 11:23
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class BaseResponseUtil {
 
     public static <T> BaseResponse<T> getBaseResponse(T data){

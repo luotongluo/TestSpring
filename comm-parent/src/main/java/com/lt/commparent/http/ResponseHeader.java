@@ -4,16 +4,6 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 import java.io.Serializable;
 
-/**
- * @Title: ResponseHeader
- * @Package: com.leyou.entity
- * @Description: 接口返回消息头类
- * @author: lizhui
- * @date: 2018/11/22 9:12
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class ResponseHeader extends Header implements Serializable{
 
 	private static final long serialVersionUID = 1L;

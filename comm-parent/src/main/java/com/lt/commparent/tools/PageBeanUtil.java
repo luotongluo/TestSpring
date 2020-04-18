@@ -3,16 +3,6 @@ package com.lt.commparent.tools;
 import java.io.Serializable;
 import java.util.Collection;
 
-/**
- * @Title: PageBeanUtil
- * @Package: com.leyou.apollo.tools
- * @Description: 分页对象
- * @author: lizhui
- * @date: 2019/2/27 11:33
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class PageBeanUtil<Z> implements Serializable {
 
     /**

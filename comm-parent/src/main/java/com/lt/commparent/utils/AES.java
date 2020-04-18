@@ -6,27 +6,6 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
 
-/**
- *  
- * <p>Title: AES1</p>
- * <p>Description: 
- * 编码工具类 
- * 1.将byte[]转为各种进制的字符串 
- * 2.base 64 encode 
- * 3.base 64 decode 
- * 4.获取byte[]的md5值 
- * 5.获取字符串md5值 
- * 6.结合base64实现md5加密 
- * 7.AES加密 
- * 8.AES加密为base 64 code 
- * 9.AES解密 
- * 10.将base 64 code AES解密 </p>
- * <p>Company: rongxun(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2016 rongxun.com. All Rights Reserved</p> 
- * @author Illidan  
- * @date 2016年8月29日 下午2:59:22 
- * @version V1.0
- */
 @SuppressWarnings("restriction")
 public class AES {  
       

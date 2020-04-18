@@ -49,46 +49,6 @@ public class CsvUtill {
         }
         return objects;
     }
-
-
-    /**
-     * 积分兑换的导出接口  --
-     * 参考代码
-     *
-     * @return
-     */
-//    @RequestMapping("/exportPoint")
-//    public Map exportPoint(@RequestParam(name = "exchange_order_number") Integer groupId, HttpServletResponse httpServletResponse) {
-//        RequestHead header = null;
-//        try {
-//            List<PointExchangeProductItem> csvExportInfo = productPointService.exportPoint(groupId);
-//
-//            //设置response
-//            httpServletResponse.setContentType("application/x-download;charset=gbk");
-//            //设置文件名
-//            String fileName = "積分csv导出文件" + ".csv";
-//            httpServletResponse.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(fileName, "utf-8"));
-//            //获得打印流
-//            PrintWriter pw = httpServletResponse.getWriter();
-//            pw.println("商品编号,商品名称,兑换积分数,加价格");
-//            StringBuilder sb = new StringBuilder();
-//            for (PointExchangeProductItem pointExchangeProductItem : csvExportInfo) {
-//                String sku = pointExchangeProductItem.getSku();
-//                String productName = pointExchangeProductItem.getProductName();
-//                Integer point = pointExchangeProductItem.getPoint();
-//                double addPrice = pointExchangeProductItem.getAddPrice();
-//                sb.append(sku + "," + productName + "," + point + "," + addPrice);
-//                sb.append("\r\n");
-//            }
-//
-//            pw.print(sb);
-//            pw.close();
-//            return ResponseUtil.getRespMap(0, "導出成功", header, csvExportInfo);
-//        } catch (Exception e) {
-//            logger.info("com.leyou.apollo.promotion.controller.ProductPointController.exportPoint--> \n " + e);
-//        }
-//        return ResponseUtil.getRespMap(ResultCode.ERROR.getIndex(), ResultCode.ERROR.getName(), header, null);
-//    }
 }
 
 

@@ -1,13 +1,3 @@
-/**   
-* @Title: PromotionRedisRule.java 
-* @Package com.leyou.apollo.framework 
-* @Description: 定义促销与券的缓存存储规则
-* @author JerryLong  
-* @date 2019年2月28日 上午10:56:23 
-* @version V1.0   
-* <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
-* <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p> 
-*/
 package com.lt.commparent.utils;
 public class PromotionRedisRule {
 	

@@ -4,16 +4,6 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Title: MapObjectTransfer
- * @Package: com.leyou.apollo.http
- * @Description: json和object 的转换
- * @author: lizhui
- * @date: 2019/1/15 10:20
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class MapObjectTransfer {
 
 

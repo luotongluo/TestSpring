@@ -5,16 +5,6 @@ import com.lt.commparent.tools.MD5Util;
 
 import java.security.MessageDigest;
 
-/**
- * <p>Title: MD5</p>
- * <p>Description: MD5算法</p>
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2016 leyou.com. All Rights Reserved</p>
- *
- * @author Illidan
- * @version V1.0
- * @date 2016年5月5日 下午4:31:55
- */
 public class MD5 {
     private final static String[] hexDigits = {"0", "1", "2", "3", "4", "5",
             "6", "7", "8", "9", "a", "b", "c",

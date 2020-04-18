@@ -4,16 +4,6 @@ import com.alibaba.fastjson.JSON;
 
 import java.util.HashMap;
 
-/**
- * @Title: ResponseDataDeal
- * @Package: com.leyou.entity
- * @Description: 返回数据处理
- * @author: lizhui
- * @date: 2018/11/22 9:22
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class ResponseDataDeal {
 
 

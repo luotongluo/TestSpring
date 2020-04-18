@@ -1,15 +1,5 @@
 package com.lt.commparent.utils;
 
-/**
- * @Title: BaseResultCode
- * @Package: com.leyou.apollo.framework
- * @Description: 基础服务返回码
- * @author: lizhui
- * @date: 2019/2/27 11:25
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public enum  BaseResultCode {
 
     /** 成功 */

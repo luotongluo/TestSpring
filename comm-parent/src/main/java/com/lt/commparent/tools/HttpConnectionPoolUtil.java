@@ -21,12 +21,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-/**
- * @Title: HttpConnectionPoolUtil
- * @Package: com.leyou.util
- * @Description: httpclient pool
- * @author:
- */
 public class HttpConnectionPoolUtil {
 
     private static CloseableHttpClient httpClient;

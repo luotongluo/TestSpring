@@ -2,16 +2,6 @@ package com.lt.commparent.utils;
 
 import com.alibaba.fastjson.annotation.JSONField;
 
-/**
- * 
- * <p>Title: RequestHead</p>
- * <p>Description: 请求消息头</p>
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2016 leyou.com. All Rights Reserved</p> 
- * @author Illidan  
- * @date 2016年5月5日 下午4:21:21 
- * @version V1.0
- */
 public class RequestHead extends Header{
 	
 	

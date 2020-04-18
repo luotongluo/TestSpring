@@ -1,5 +1,7 @@
 package com.lt.concon.service.feign;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -11,15 +13,17 @@ import java.util.Map;
  */
 @Service
 public class ConnBaseServiceFB implements ConnBaseService {
+    private static Logger logger = LoggerFactory.getLogger(ConnBaseServiceFB.class);
+
     @Override
     public Map test() {
-        System.out.println("test-fb");
+        logger.info("test-fb");
         return null;
     }
 
     @Override
     public Map add() {
-        System.out.println("add-fb");
+        logger.info("add-fb");
         return null;
     }
 }

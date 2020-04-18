@@ -4,16 +4,6 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 import java.io.Serializable;
 
-/**
- * @Title: Header
- * @Package: com.leyou.apollo
- * @Description: 消息头
- * @author: lizhui
- * @date: 2019/1/14 9:31
- * @version: V1.0
- * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
- * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
- */
 public class Header implements Serializable {
     private static final long serialVersionUID = 263551892440506626L;
 
