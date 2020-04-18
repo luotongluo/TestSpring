@@ -9221,3 +9221,67 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@27:27 - no applicable action 
 24163 [RMI TCP Connection(6)-192.168.182.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 24163 [RMI TCP Connection(6)-192.168.182.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 24169 [RMI TCP Connection(6)-192.168.182.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+8211 [main] INFO  com.lt.conlt.ConLtApplication - No active profile set, falling back to default profiles: default
+8830 [main] WARN  o.s.b.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+8932 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=34003ceb-08a5-3e29-8b76-9107b9caec6a
+9232 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+9239 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+9240 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+9240 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+9387 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+9387 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1162 ms
+10524 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+10524 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10533 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@408e96d9
+14137 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14303 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14360 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14361 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14452 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14453 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14741 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14741 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14862 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18285 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+18323 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+18361 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18380 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+18381 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+18386 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1587219475346 with initial instances count: 0
+18411 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+18412 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:9001/eureka/]
+19686 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+19686 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+19686 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+19686 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+19775 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:9001/eureka/
+19781 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+19781 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+19790 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+19846 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-SERVER with eureka with status UP
+19848 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+19849 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+19850 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+19862 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+19862 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+19862 [Thread-46] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+19862 [Thread-46] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+19862 [Thread-46] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+19867 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+19869 [Thread-46] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+19887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+19888 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9001
+22987 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+22991 [main] INFO  com.lt.conlt.ConLtApplication - Started ConLtApplication in 22.544 seconds (JVM running for 25.501)
+23477 [RMI TCP Connection(1)-192.168.182.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23477 [RMI TCP Connection(1)-192.168.182.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23484 [RMI TCP Connection(1)-192.168.182.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+79864 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+139864 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+154397 [http-nio-9001-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CON-BASE/localhost:con-base:9103 with status UP (replication=false)
+155012 [http-nio-9001-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CON-BASE/localhost:con-base:9103 with status UP (replication=true)
+199864 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+259865 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+319865 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+379866 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+439867 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
