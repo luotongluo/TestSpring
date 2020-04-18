@@ -21,4 +21,10 @@ public class TestServiceImpl implements TestService {
     public Map test() {
         return this.connBaseService.test();
     }
+
+    @Override
+    public Map add() {
+        Map add = this.connBaseService.add();
+        return add;
+    }
 }

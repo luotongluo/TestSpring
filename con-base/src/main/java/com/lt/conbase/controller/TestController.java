@@ -23,4 +23,13 @@ public class TestController {
     public Map test() {
         return this.testService.test();
     }
+
+    @RequestMapping("add")
+    @ResponseBody
+    public Map add() {
+        long start = System.currentTimeMillis();
+        Map add = this.testService.add();
+        System.out.println("time :"+(System.currentTimeMillis()-start));
+        return add;
+    }
 }

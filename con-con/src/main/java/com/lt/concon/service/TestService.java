@@ -10,4 +10,5 @@ import java.util.Map;
 public interface TestService {
     Map test();
 
+    Map add();
 }

@@ -1,6 +1,0 @@
-2020-04-11 15:38:45,077 [main] INFO  c.example.webtest.WebTestApplication 55 - Starting WebTestApplication on tongluo with PID 8860 (E:\Work\Test-Daily\web-test\target\classes started by tong.luo in E:\Work\TestSpring)
-2020-04-11 15:38:45,083 [main] DEBUG c.example.webtest.WebTestApplication 56 - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-11 15:38:45,084 [main] INFO  c.example.webtest.WebTestApplication 655 - The following profiles are active: test
-2020-04-11 15:46:07,178 [main] INFO  c.example.webtest.WebTestApplication 655 - The following profiles are active: test
-2020-04-11 15:49:40,554 [main] INFO  c.example.webtest.WebTestApplication 655 - The following profiles are active: test
-2020-04-11 15:52:06,582 [main] INFO  c.example.webtest.WebTestApplication 655 - The following profiles are active: test

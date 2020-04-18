@@ -23,4 +23,10 @@ public class TestController {
     public Map test() {
         return this.testService.test();
     }
+
+    @RequestMapping("add")
+    @ResponseBody
+    public Map add() {
+        return this.testService.add();
+    }
 }
