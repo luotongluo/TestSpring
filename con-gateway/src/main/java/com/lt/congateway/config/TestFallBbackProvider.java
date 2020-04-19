@@ -2,7 +2,6 @@ package com.lt.congateway.config;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lt.commparent.http.ResultCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
@@ -111,8 +110,8 @@ public class TestFallBbackProvider implements FallbackProvider {
         Map<String, Object> data = new HashMap<>();
         data.put("header", "null");
         HashMap<String, Object> bodyMap = new HashMap<>();
-        bodyMap.put("code", ResultCode.CHANAEL_ERROR.getIndex());
-        bodyMap.put("msg", ResultCode.CHANAEL_ERROR.getName());
+        bodyMap.put("code", 99999);
+        bodyMap.put("msg", "服务访问超时");
         data.put("body", bodyMap);
 
         ObjectMapper mapper = new ObjectMapper();
