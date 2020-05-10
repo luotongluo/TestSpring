@@ -45,6 +45,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.lt</groupId>
+			<artifactId>comm-parent</artifactId>
+			<version>0.0.1</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>

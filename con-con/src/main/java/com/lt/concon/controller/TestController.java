@@ -34,4 +34,10 @@ public class TestController {
     public Map add() {
         return this.testService.add();
     }
+
+    @RequestMapping("testSedMsg")
+    @ResponseBody
+    public Map testSedMsg() {
+        return this.testService.testSedMsg();
+    }
 }

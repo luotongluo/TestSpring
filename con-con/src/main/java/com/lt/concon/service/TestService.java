@@ -11,4 +11,7 @@ public interface TestService {
     Map test();
 
     Map add();
+
+    Map testSedMsg();
+
 }
