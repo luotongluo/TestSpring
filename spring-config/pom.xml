@@ -30,6 +30,10 @@
             &lt;!&ndash;<version>3.0.0</version>&ndash;&gt;
         </dependency>-->
         <dependency>
+            <groupId>com.netflix.eureka</groupId>
+            <artifactId>eureka-client</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
