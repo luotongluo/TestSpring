@@ -1,6 +1,7 @@
 package com.lt.conbase.test;
 
 import com.lt.commparent.tools.MD5Util;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author tong.luo
@@ -9,7 +10,9 @@ import com.lt.commparent.tools.MD5Util;
  */
 public class TestDeploy {
     public static void main(String[] args) {
-        byte[] cipherStr = MD5Util.getCipherStr("123");
+        String str = "123";
+        byte[] cipherStr = MD5Util.getCipherStr(str);
         System.out.println(cipherStr);
+        StringUtils.isNotEmpty(str);
     }
 }
