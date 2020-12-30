@@ -1,3 +1,25 @@
 springcloud5大组件介绍
 https://blog.csdn.net/weixin_40910372/article/details/89466955
 https://blog.csdn.net/plpldog/article/details/104961330
+https://baijiahao.baidu.com/s?id=1621651597363566701&wfr=spider&for=pc
+*****https://www.pianshen.com/article/60851405373/
+
+springcloud 中的学习分类：
+https://www.cnblogs.com/babycomeon/category/1493460.html?page=2
+注册中心eureka
+
+客服端负载均衡——Netflix Ribbon
+
+服务网关——Netflix Zuul
+
+断路器——Netflix Hystrix
+
+分布式配置——Spring Cloud Config
+https://www.cnblogs.com/babycomeon/p/11134717.html
+bus
+https://www.cnblogs.com/babycomeon/p/11141160.html
+
+stream
+
+task
+
