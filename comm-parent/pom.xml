@@ -12,7 +12,7 @@
     <artifactId>comm-parent</artifactId>
     <version>0.0.1</version>
     <name>comm-parent</name>
-    <!--<packaging>POM</packaging>-->
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>
