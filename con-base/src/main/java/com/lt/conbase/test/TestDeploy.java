@@ -1,7 +1,6 @@
 package com.lt.conbase.test;
 
 //import com.lt.commparent.tools.MD5Util;
-import com.lt.commparent.tools.MD5Util;
 import org.apache.commons.lang3.StringUtils;
 
 /**
