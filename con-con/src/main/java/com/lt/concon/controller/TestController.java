@@ -26,6 +26,7 @@ public class TestController {
     public Map test() throws Exception {
         logger.info("test");
 //        Thread.sleep(8100);
+        logger.error("123");
         return this.testService.test();
     }
 
