@@ -7,7 +7,8 @@ https://baijiahao.baidu.com/s?id=1621651597363566701&wfr=spider&for=pc
 springcloud 中的学习分类：
 https://www.cnblogs.com/babycomeon/category/1493460.html?page=2
 注册中心eureka
-
+集群中的配置或者单点中的配置
+http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html
 客服端负载均衡——Netflix Ribbon
 
 服务网关——Netflix Zuul
