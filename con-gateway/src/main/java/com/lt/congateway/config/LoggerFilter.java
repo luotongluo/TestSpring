@@ -43,9 +43,15 @@ public class LoggerFilter extends ZuulFilter {
      * 返回boolean类型。代表当前filter是否生效。
      * 默认值为false。
      * 返回true代表开启filter。
+     * 也可以拦截某一路径下面的内容
      */
     @Override
     public boolean shouldFilter() {
+        //zool 使用时，上下文对象RequestContext，是共享的。 所以通过RequestContext 获取值
+        RequestContext requestContext = RequestContext.getCurrentContext();
+        HttpServletRequest request = requestContext.getRequest();
+        String requestURI = request.getRequestURI();
+        logger.info("当前请求的url为：{}", requestURI);
         return true;
     }
 
@@ -63,7 +69,7 @@ public class LoggerFilter extends ZuulFilter {
         // 可以记录日志、鉴权，给维护人员记录提供定位协助、统计性能
         logger.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
         Object accessToken = request.getParameter("token");
-        logger.info("zuul拦截--请求前验证---auth："+accessToken);
+        logger.info("zuul拦截--请求前验证---auth：" + accessToken);
 //        if (accessToken == null) {
 //            logger.warn("token is empty");
 //            rc.setSendZuulResponse(false);
@@ -77,7 +83,7 @@ public class LoggerFilter extends ZuulFilter {
 //        }
         String auth = request.getParameter("auth");
         //TODO 此处可以做日志记录
-        logger.info("zuul拦截--请求前验证---auth："+auth);
+        logger.info("zuul拦截--请求前验证---auth：" + auth);
 
         //成功的情况
 //        if (StringUtils.isNotBlank(auth)){
