@@ -7,13 +7,13 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class ConLtApplication {
+public class EurkeServer1Application {
 
 //	static{
 //		System.out.println(ResultCode.ERROR.getIndex());
 //	}
 	public static void main(String[] args) {
-		SpringApplication.run(ConLtApplication.class, args);
+		SpringApplication.run(EurkeServer1Application.class, args);
 	}
 
 }
