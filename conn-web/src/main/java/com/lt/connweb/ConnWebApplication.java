@@ -12,8 +12,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableFeignClients
 public class ConnWebApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConnWebApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConnWebApplication.class, args);
+    }
 
 }

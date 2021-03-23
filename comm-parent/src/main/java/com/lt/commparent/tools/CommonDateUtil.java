@@ -38,6 +38,7 @@ public class CommonDateUtil {
 
     /**
      * 获取当前时间的date
+     *
      * @param format
      * @return
      */
@@ -47,17 +48,18 @@ public class CommonDateUtil {
             SimpleDateFormat formatter = new SimpleDateFormat(format);
             ParsePosition pos = new ParsePosition(0);
             return formatter.parse(time, pos);
-        }catch (Exception e){
-           e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         return null;
     }
 
     /**
      * 获取当前时间的date
+     *
      * @return
      */
-    public static Date getNowDate(){
+    public static Date getNowDate() {
         return getNowDate(FORMAT_YYMMDDHHMMSS);
     }
 }

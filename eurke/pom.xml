@@ -35,12 +35,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        		<!-- spring boot security安全认证启动器 -->
-<!--        		<dependency>-->
-<!--        			<groupId>org.springframework.boot</groupId>-->
-<!--        			<artifactId>spring-boot-starter-security</artifactId>-->
-<!--        		</dependency>-->
-         <!--actuator-->
+        <!-- spring boot security安全认证启动器 -->
+        <!--        		<dependency>-->
+        <!--        			<groupId>org.springframework.boot</groupId>-->
+        <!--        			<artifactId>spring-boot-starter-security</artifactId>-->
+        <!--        		</dependency>-->
+        <!--actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>

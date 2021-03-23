@@ -11,7 +11,7 @@ import java.util.Map;
  * @description ConnBaseService
  * @date 2020/4/9 19:08
  */
-@FeignClient(name = "con-base",fallback =ConnBaseServiceFB.class )
+@FeignClient(name = "con-base", fallback = ConnBaseServiceFB.class)
 public interface ConnBaseService {
     @RequestMapping("test")
     @ResponseBody

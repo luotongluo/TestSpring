@@ -105,6 +105,7 @@ public class JedisUtils {
 
     /**
      * 存入普通对象
+     *
      * @param key     键
      * @param value   值
      * @param timeout 有效期，单位秒
@@ -112,6 +113,7 @@ public class JedisUtils {
     public static void set(final String key, final Object value, final long timeout) {
         redisTemplate.opsForValue().set(key, value, timeout, TimeUnit.SECONDS);
     }
+
     /**
      * 获取普通对象
      *
@@ -126,8 +128,8 @@ public class JedisUtils {
     /**
      * 往Hash中存入数据
      *
-     * @param key Redis键
-     * @param hKey Hash键
+     * @param key   Redis键
+     * @param hKey  Hash键
      * @param value 值
      */
     public static void hPut(final String key, final String hKey, final Object value) {
@@ -138,7 +140,7 @@ public class JedisUtils {
     /**
      * 往Hash中存入多个数据
      *
-     * @param key Redis键
+     * @param key    Redis键
      * @param values Hash键值对
      */
     public static void hPutAll(final String key, final Map<String, Object> values) {
@@ -149,7 +151,7 @@ public class JedisUtils {
     /**
      * 获取Hash中的数据
      *
-     * @param key Redis键
+     * @param key  Redis键
      * @param hKey Hash键
      * @return Hash中的对象
      */
@@ -161,7 +163,7 @@ public class JedisUtils {
     /**
      * 获取多个Hash中的数据
      *
-     * @param key Redis键
+     * @param key   Redis键
      * @param hKeys Hash键集合
      * @return Hash对象集合
      */
@@ -175,7 +177,7 @@ public class JedisUtils {
     /**
      * 往Set中存入数据
      *
-     * @param key Redis键
+     * @param key    Redis键
      * @param values 值
      * @return 存入的个数
      */
@@ -187,7 +189,7 @@ public class JedisUtils {
     /**
      * 删除Set中的数据
      *
-     * @param key Redis键
+     * @param key    Redis键
      * @param values 值
      * @return 移除的个数
      */
@@ -201,7 +203,7 @@ public class JedisUtils {
     /**
      * 往List中存入数据
      *
-     * @param key Redis键
+     * @param key   Redis键
      * @param value 数据
      * @return 存入的个数
      */
@@ -213,7 +215,7 @@ public class JedisUtils {
     /**
      * 往List中存入多个数据
      *
-     * @param key Redis键
+     * @param key    Redis键
      * @param values 多个数据
      * @return 存入的个数
      */
@@ -225,7 +227,7 @@ public class JedisUtils {
     /**
      * 往List中存入多个数据
      *
-     * @param key Redis键
+     * @param key    Redis键
      * @param values 多个数据
      * @return 存入的个数
      */
@@ -237,9 +239,9 @@ public class JedisUtils {
     /**
      * 从List中获取begin到end之间的元素
      *
-     * @param key Redis键
+     * @param key   Redis键
      * @param start 开始位置
-     * @param end 结束位置（start=0，end=-1表示获取全部元素）
+     * @param end   结束位置（start=0，end=-1表示获取全部元素）
      * @return List对象
      */
     public static List<Object> lGet(final String key, final int start, final int end) {

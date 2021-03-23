@@ -6,7 +6,7 @@ package com.lt.connweb.enums;
  * @date 2021/1/4 10:21
  */
 public enum ResultCode {
-    NO_PERMISSION(900,"");
+    NO_PERMISSION(900, "");
     private int code;
     private String name;
 

@@ -18,12 +18,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConConApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConConApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConConApplication.class, args);
+    }
 
-	@RequestMapping("/")
-	public String home(){
-		return "SUCCESS";
-	}
+    @RequestMapping("/")
+    public String home() {
+        return "SUCCESS";
+    }
 }

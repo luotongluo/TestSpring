@@ -29,10 +29,11 @@ public class ResponseDataDeal {
 
     /**
      * 返回默认消息头，不建议使用
-     * @param body  返回body内容
+     *
+     * @param body 返回body内容
      */
     public static ProtocolResponse getSuccess(Object body) {
-        return getSuccess(null,body);
+        return getSuccess(null, body);
     }
 
     /**
@@ -97,7 +98,7 @@ public class ResponseDataDeal {
         Header header = new Header();
         header.setAppId(12222);
         header.setMessageId("22333333");
-        header.setTimeStamp(System.currentTimeMillis()+"");
+        header.setTimeStamp(System.currentTimeMillis() + "");
         header.setTransactionType("dslsld");
 
         String json = JSON.toJSONString(getSuccess(requestHeader, header));

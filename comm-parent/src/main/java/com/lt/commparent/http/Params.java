@@ -14,7 +14,7 @@ public class Params {
 
 
     /**
-     *连接超时时间，3秒
+     * 连接超时时间，3秒
      */
     public static final Integer CONNECT_TIME_OUT = 3000;
 
@@ -22,7 +22,6 @@ public class Params {
      * 读取超时时间，5秒
      */
     public static final Integer SO_TIME_OUT = 20000;
-
 
 
 }

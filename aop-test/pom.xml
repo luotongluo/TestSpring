@@ -24,11 +24,11 @@
             <version>5.1.9.RELEASE</version>
         </dependency>
         <!--在新的版本中 不需要引入cglib的包-->
-       <!-- <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.2.4</version>
-        </dependency>-->
+        <!-- <dependency>
+             <groupId>cglib</groupId>
+             <artifactId>cglib</artifactId>
+             <version>3.2.4</version>
+         </dependency>-->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>

@@ -24,6 +24,7 @@ public class WebFilter extends ZuulFilter {
 
     /**
      * 过滤器类型
+     *
      * @return
      */
     @Override
@@ -33,6 +34,7 @@ public class WebFilter extends ZuulFilter {
 
     /**
      * 过滤器执行顺序 数字越小，优先级越高
+     *
      * @return
      */
     @Override
@@ -42,6 +44,7 @@ public class WebFilter extends ZuulFilter {
 
     /**
      * 判断是否需要过滤
+     *
      * @return
      */
     @Override
@@ -51,6 +54,7 @@ public class WebFilter extends ZuulFilter {
 
     /**
      * 过滤器拦截规则
+     *
      * @return
      * @throws ZuulException
      */

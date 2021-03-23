@@ -9,12 +9,13 @@ import javax.annotation.Resource;
 @SpringBootTest
 public class CommParentApplicationTests {
     @Resource
-    private  RedisTemplate redisTemplate;
+    private RedisTemplate redisTemplate;
+
     @Test
     public void contextLoads() {
 //        JedisUtils.set("test","test");
 //        Object test = JedisUtils.get("test");
-        redisTemplate.opsForValue().set("test","test");
+        redisTemplate.opsForValue().set("test", "test");
         Object test1 = redisTemplate.opsForValue().get("test");
         System.out.println(test1);
     }

@@ -30,7 +30,7 @@ public class MsgSender {
     public void process(Map map, Channel channel) {
         logger.info("req:{}", JSON.toJSONString(map));
         try {
-            channel.basicAck(1,true);
+            channel.basicAck(1, true);
         } catch (IOException e) {
             e.printStackTrace();
         }

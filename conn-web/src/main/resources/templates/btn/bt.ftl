@@ -125,7 +125,7 @@
         <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked> 选项 1
     </label>
     <label class="radio-inline">
-        <input type="radio" name="optionsRadiosinline" id="optionsRadios4"  value="option2"> 选项 2
+        <input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2"> 选项 2
     </label>
 </div>
 <a>-----------------------------------------------------------</a>

@@ -5,7 +5,7 @@ package com.lt.commparent.expcetion;
  * @description UseException
  * @date 2020/4/18 23:20
  */
-public class UseException extends RuntimeException{
+public class UseException extends RuntimeException {
     private String msg;
 
     public UseException(String msg) {

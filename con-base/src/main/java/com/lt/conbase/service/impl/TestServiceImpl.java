@@ -38,7 +38,7 @@ public class TestServiceImpl implements TestService {
         testDb.setName(string);
         Integer add = testDbMapper.add(testDb);
         HashMap<String, Object> stringObjectHashMap = new HashMap<>();
-        stringObjectHashMap.put("count",add);
+        stringObjectHashMap.put("count", add);
         return stringObjectHashMap;
     }
 }

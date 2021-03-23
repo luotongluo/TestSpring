@@ -12,12 +12,12 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableHystrixDashboard
 @EnableHasor()
 @EnableHasorWeb()
-@SpringBootApplication(scanBasePackages  = {"com.lt.conbase"})
+@SpringBootApplication(scanBasePackages = {"com.lt.conbase"})
 @EnableDiscoveryClient
 public class ConBaseApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConBaseApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConBaseApplication.class, args);
+    }
 
 }

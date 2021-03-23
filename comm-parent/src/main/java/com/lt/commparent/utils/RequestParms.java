@@ -2,26 +2,25 @@ package com.lt.commparent.utils;
 
 public class RequestParms<T> {
 
-	private RequestHead header;
-	
-	private T body;
+    private RequestHead header;
 
-	public RequestHead getHeader() {
-		return header;
-	}
+    private T body;
 
-	public void setHeader(RequestHead header) {
-		this.header = header;
-	}
+    public RequestHead getHeader() {
+        return header;
+    }
 
-	public T getBody() {
-		return body;
-	}
+    public void setHeader(RequestHead header) {
+        this.header = header;
+    }
 
-	public void setBody(T body) {
-		this.body = body;
-	}
+    public T getBody() {
+        return body;
+    }
+
+    public void setBody(T body) {
+        this.body = body;
+    }
 
 
-	
 }

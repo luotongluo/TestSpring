@@ -22,14 +22,14 @@ public class BaseController {
 
     @RequestMapping("getdruide")
     @ResponseBody
-    public Map getdruide(){
+    public Map getdruide() {
         String url = "http://localhost:9101/druid";
         HashMap<String, Object> retMap = new HashMap<>();
-        retMap.put("rescode",0);
-        retMap.put("resMsg","Success");
+        retMap.put("rescode", 0);
+        retMap.put("resMsg", "Success");
         String request = HttpUtils.getRequest(url);
 
-        retMap.put("msg",request);
+        retMap.put("msg", request);
         return retMap;
     }
 }

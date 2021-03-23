@@ -1,14 +1,20 @@
 package com.lt.commparent.utils;
 
-public enum  BaseResultCode {
+public enum BaseResultCode {
 
-    /** 成功 */
+    /**
+     * 成功
+     */
     SUCCESS(0, "success"),
 
-    /** 参数不能为空 */
-    PARAMETER_NOT_EMPTY(-1,"参数不能为空"),
+    /**
+     * 参数不能为空
+     */
+    PARAMETER_NOT_EMPTY(-1, "参数不能为空"),
 
-    /** 失败 */
+    /**
+     * 失败
+     */
     ERROR(-2, "error"),
     ;
 
