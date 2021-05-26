@@ -17,7 +17,7 @@ http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html
 
 分布式配置——Spring Cloud Config
 https://www.cnblogs.com/babycomeon/p/11134717.html
-http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html
+http://www.ityouknow.com/springcloud/2017/05/22/springcloud-com.lt.commonutils.config-git.html
 https://www.cnblogs.com/babycomeon/p/11135926.html
 bus
 https://www.cnblogs.com/babycomeon/p/11141160.html

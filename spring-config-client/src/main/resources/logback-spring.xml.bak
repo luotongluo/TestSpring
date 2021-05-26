@@ -13,7 +13,7 @@
         <property name="logback.logdir" value="/home/log/"/>
         &lt;!&ndash;在磁盘的根目录下面创建日志文件&ndash;&gt;
         &lt;!&ndash;<property name="logback.logdir" value="/log/"/>&ndash;&gt;
-        <property name="logback.appname" value="test-config-client"/>
+        <property name="logback.appname" value="test-com.lt.commonutils.config-client"/>
     </springProfile>
 
     &lt;!&ndash;输出到控制台 ConsoleAppender&ndash;&gt;

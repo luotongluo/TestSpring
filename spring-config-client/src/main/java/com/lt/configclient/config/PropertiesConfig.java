@@ -1,7 +1,7 @@
-//package com.lt.configclient.config;
+//package com.lt.configclient.com.lt.commonutils.config;
 //
 //import org.springframework.beans.factory.annotation.Value;
-//import org.springframework.cloud.context.config.annotation.RefreshScope;
+//import org.springframework.cloud.context.com.lt.commonutils.config.annotation.RefreshScope;
 //import org.springframework.context.annotation.Bean;
 //
 ///**

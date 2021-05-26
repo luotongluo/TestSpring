@@ -1,7 +1,7 @@
-//package com.lt.eurke.config;
+//package com.lt.eurke.com.lt.commonutils.config;
 //
 //import org.springframework.context.annotation.Configuration;
-//import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+//import org.springframework.security.com.lt.commonutils.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 //
 ///**
 // * @author tong.luo
@@ -16,7 +16,7 @@
 //
 //    /**
 //
-//     * Instantiates a new Security secure config.
+//     * Instantiates a new Security secure com.lt.commonutils.config.
 //
 //     *
 //

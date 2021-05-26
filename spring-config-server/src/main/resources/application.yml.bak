@@ -2,13 +2,13 @@ server:
   port: 2101
 spring:
   application:
-    name: test-config-server
+    name: test-com.lt.commonutils.config-server
   cloud:
-    config:
+    com.lt.commonutils.config:
       server:
         git:
           uri: https://github.com/luotongluo/TestSpring/feature-lt-0408
-          search-paths: spring-config
+          search-paths: spring-com.lt.commonutils.config
           username: 1282875540@qq.com
           password: luo1234tong
 eureka:

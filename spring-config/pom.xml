@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lt</groupId>
-    <artifactId>config</artifactId>
+    <artifactId>com.lt.commonutils.config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-config</name>
-    <description>Demo project for Spring Boot-config</description>
+    <name>spring-com.lt.commonutils.config</name>
+    <description>Demo project for Spring Boot-com.lt.commonutils.config</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -36,7 +36,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-com.lt.commonutils.config-server</artifactId>
         </dependency>
     </dependencies>
 

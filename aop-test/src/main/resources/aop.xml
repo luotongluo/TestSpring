@@ -16,16 +16,16 @@
     <bean id="timeHandler" class="com.lt.aoptest.aop.TimeHandler"/>
     <bean id="logHandler" class="com.lt.aoptest.LogHandler"/>
 
-    <!--<aop:config>
+    <!--<aop:com.lt.commonutils.config>
         <aop:aspect id="time" ref="timeHandler">
             <aop:pointcut id="addAllMethod" expression="execution(* com.lt.aoptest.aop.HelloWorld.*(..))"/>
             <aop:before method="printTime" pointcut-ref="addAllMethod"/>
             <aop:after method="printTime" pointcut-ref="addAllMethod"/>
         </aop:aspect>
-    </aop:config>-->
+    </aop:com.lt.commonutils.config>-->
 
 
-    <aop:config>
+    <aop:com.lt.commonutils.config>
         <aop:aspect id="time" ref="timeHandler" order="1">
             <aop:pointcut id="addTime" expression="execution(* com.lt.aoptest.aop.HelloWorld.*(..))"/>
             <aop:before method="printTime" pointcut-ref="addTime"/>
@@ -38,6 +38,6 @@
 
         </aop:aspect>
 
-    </aop:config>
+    </aop:com.lt.commonutils.config>
     <aop:aspectj-autoproxy proxy-target-class="false"></aop:aspectj-autoproxy>
 </beans>

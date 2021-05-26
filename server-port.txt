@@ -1,4 +1,4 @@
-config: 2101开始
+com.lt.commonutils.config: 2101开始
 eureka：9000开始
 base:9100开始
 converge：9200开始
