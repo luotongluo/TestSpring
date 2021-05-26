@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @description JedisUtils
  * @date 2020/4/19 16:42
  */
-@Component
+//@Component
 public class JedisUtils {
     @Resource
     private static RedisTemplate redisTemplate;
