@@ -1,7 +1,7 @@
 package com.lt.concon.rabbit;
 
 import com.alibaba.fastjson.JSON;
-import com.lt.concon.cofig.MqContents;
+import com.lt.commonutils.config.MqContents;
 import com.rabbitmq.client.Channel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

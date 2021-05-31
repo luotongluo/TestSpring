@@ -1,7 +1,7 @@
 package com.lt.concon.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.lt.concon.cofig.MqContents;
+import com.lt.commonutils.config.MqContents;
 import com.lt.concon.service.TestService;
 import com.lt.concon.service.feign.ConnBaseService;
 import org.slf4j.Logger;

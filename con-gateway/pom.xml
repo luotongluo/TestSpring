@@ -28,16 +28,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
-            <version>1.4.7.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.marcosbarbero.cloud</groupId>
-            <artifactId>spring-cloud-zuul-ratelimit</artifactId>
-            <version>2.4.0.RELEASE</version>
-        </dependency>
         <!-- zuul网关的重试机制，不是使用ribbon内置的重试机制
            是借助spring-retry组件实现的重试
            开启zuul网关重试机制需要增加下述依赖
@@ -65,10 +55,16 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.68</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <version>1.4.7.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.marcosbarbero.cloud</groupId>
+            <artifactId>spring-cloud-zuul-ratelimit</artifactId>
+            <version>2.4.0.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

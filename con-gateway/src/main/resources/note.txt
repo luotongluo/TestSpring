@@ -1,0 +1,12 @@
+###gateway介绍及使用-- 配置中的路由方式，以及具体类型
+https://blog.csdn.net/rain_web/article/details/102469745
+###hystrix:
+https://blog.csdn.net/miachen520/article/details/90739215
+zuul:
+###spring cloud zuul 路由网关
+https://www.cnblogs.com/jing99/p/11696192.html
+
+********************
+https://www.cnblogs.com/sxdcgaq8080/p/9982175.html
+###Spring Cloud Gateway网关权限
+https://www.jianshu.com/p/be6aef2974bd

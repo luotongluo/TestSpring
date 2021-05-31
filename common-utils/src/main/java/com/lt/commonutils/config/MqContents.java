@@ -1,4 +1,4 @@
-package com.lt.concon.cofig;
+package com.lt.commonutils.config;
 
 /**
  * @author tong.luo
