@@ -1,4 +1,4 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.http;
 
 import java.util.HashMap;
 import java.util.Map;

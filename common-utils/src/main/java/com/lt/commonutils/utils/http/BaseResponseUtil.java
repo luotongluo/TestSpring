@@ -1,4 +1,4 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.utils.http;
 
 public class BaseResponseUtil {
 

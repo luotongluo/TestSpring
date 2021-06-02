@@ -56,6 +56,17 @@
             <artifactId>common-utils</artifactId>
             <version>0.0.1</version>
         </dependency>
+        <!--memcache-->
+        <dependency>
+            <groupId>commons-pool</groupId>
+            <artifactId>commons-pool</artifactId>
+            <!--<version>1.5.6</version>-->
+        </dependency>
+        <dependency>
+            <groupId>com.whalin</groupId>
+            <artifactId>Memcached-Java-Client</artifactId>
+            <version>3.0.2</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

@@ -1,4 +1,4 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.utils.file;
 
 import org.json.JSONObject;
 import org.json.XML;

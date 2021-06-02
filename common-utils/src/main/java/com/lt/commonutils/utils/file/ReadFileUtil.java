@@ -1,4 +1,4 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.utils.file;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

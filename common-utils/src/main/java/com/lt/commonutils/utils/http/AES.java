@@ -1,5 +1,7 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.utils.http;
 
+
+import com.lt.commonutils.http.MD5;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;

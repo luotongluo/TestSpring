@@ -1,6 +1,7 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.http;
 
 import com.alibaba.fastjson.annotation.JSONField;
+import com.lt.commonutils.utils.http.Header;
 
 public class RequestHead extends Header {
 

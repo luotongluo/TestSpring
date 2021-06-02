@@ -8,7 +8,9 @@
  * <p>Company: Leyou(China) Chain Store Co.,Ltd</p>
  * <p>版权所有: Copyright©1999-2019 leyou.com. All Rights Reserved</p>
  */
-package com.lt.commonutils.utils;
+package com.lt.commonutils.http;
+
+import com.lt.commonutils.http.MD5;
 
 public class SignUtil {
 

@@ -1,6 +1,7 @@
-package com.lt.commonutils.utils;
+package com.lt.commonutils.http;
 
 import com.alibaba.fastjson.JSON;
+import com.lt.commonutils.utils.http.Base64Util;
 
 import java.util.HashMap;
 import java.util.Map;
