@@ -15,7 +15,7 @@ common-utils：公共的工具类
 eurke、eureka-server-1：注册中心
 conn-web：9301
 con-gateway：网关
-con-base：基础服务
-con-con：局和服务
+con-base：基础服务 （数据库服务，mail）
+con-con：聚合服务（mq）
 spring-config-client、spring-config-server：配置中心
 
