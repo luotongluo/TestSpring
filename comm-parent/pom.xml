@@ -19,6 +19,7 @@
         <fastjson.version>1.2.59</fastjson.version>
         <httpclient.version>4.5.8</httpclient.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
+        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -69,7 +70,17 @@
 
 
     </dependencies>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
@@ -79,16 +90,4 @@
         </plugins>
 
     </build>
-    <!--    <distributionManagement>
-            <repository>
-                <id>nexus-releases</id>
-                <name>Nexus Release Repository</name>
-                <url>https://repo.wecash.net/repository/releases/</url>
-            </repository>
-            <snapshotRepository>
-                <id>nexus-snapshots</id>
-                <name>Nexus Snapshot Repository</name>
-                <url>https://repo.wecash.net/repository/snapshots/</url>
-            </snapshotRepository>
-        </distributionManagement>-->
 </project>
